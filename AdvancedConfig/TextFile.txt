@@ -1,0 +1,240 @@
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another 123segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment	
+Another subsegment6 example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_α23=This 1segment contains numbers the 9 3 2 4.
+ID_@@@=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment9
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment3 contains numbers the 9 3 2 4.
+ID_789=This 2segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a 5segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another 6subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment2 contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a 234segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment123 with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a 123segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment
+This is a segment.
+Is this a segment?
+How many segments are in this file?
+ID_123=This is a segment with an ID
+ID_234=This is another segment with an ID
+ID_345=This is a segment with <BOLD> HTML </BOLD> content and an ID.
+Subsegments are also very interesting in this context.
+ID_456=This is a segment with two = signs instead of one...
+Try matching this (bracketed text) of the segment
+Another subsegment example will be with [square brackets]
+A final segment contains {curly braces}
+ID_AB4=This segment has an ID with a slightly different format than the others
+IDAB5=This segment also has an ID with a slightly different format than previous segments
+ID_678=This segment contains numbers the 9 3 2 4.
+ID_789=This segent contains an intentional typo in the word segment

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zek>
+	<content id="1">
+		<title trans='yes'>Hello World!</title>
+		<main>
+			<paragraph trans="yes" matched='yes'>This is a translatable paragraph for element main. This paragraph could also be non-translatable e.g. if attribute translate was set to "no"</paragraph>
+			<paragraph trans="no"  matched='no'>This is a non-translatable paragraph for element main</paragraph>
+			<list>
+				<listitem item="1">
+					<value>1000</value>
+					<currency>EUR</currency>
+					<description trans="yes" matched='yes'>The first list item for main. The list contains a few items i.e. list items</description>
+				</listitem>
+				<listitem item="2">
+					<value>1500</value>
+					<currency>USD</currency>
+					<description trans="no" matched='no'>The second list item for main</description>
+				</listitem>
+				<listitem item="3">
+					<value>100000.52</value>
+					<currency>CHF</currency>
+					<description trans="yes" matched='no'>The third list item for main</description>
+				</listitem>
+			</list>
+		</main>
+		<sub>
+			<paragraph trans="yes" matched='no'>This is a translatable paragraph for element sub. <b status="withinText">One of the uncommon abbreviations used in zek files is arb. which stands for "arbitrary",</b> but should not force break a segment.</paragraph>
+			<paragraph trans="no" matched='no'>This is a non-translatable paragraph for element sub</paragraph>
+			<list>
+				<listitem item="1">
+					<value>1000</value>
+					<currency>EUR</currency>
+					<description trans="yes" matched='no'>The first list item for sub</description>
+				</listitem>
+				<listitem item="2">
+					<value>1500</value>
+					<currency>USD</currency>
+					<description trans="no" matched='no'>The second list item for sub</description>
+				</listitem>
+				<listitem item="3">
+					<value>100000.52</value>
+					<currency>CHF</currency>
+					<description trans="yes" matched='no'>The third list item for sub</description>
+				</listitem>
+			</list>
+		</sub>
+	</content>
+</zek>

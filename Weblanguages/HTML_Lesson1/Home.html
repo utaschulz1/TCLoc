@@ -10,18 +10,49 @@
         background-image:url(./images/FahrradlogoGezeichnet.svg);
         background-repeat: repeat;
         background-size: auto;
+                    
+        text-align: center;
+      }
+      section {
         padding-left: 10%;
         padding-right: 10%;
+        margin-bottom: 50px;
+
+      }
+      .table {
         text-align: center;
+    
+     margin-bottom: 150px;
+     
+        
+      }
+      .center {
+        margin-left: auto;
+    margin-right:auto;
+  
       }
             h1 {
         color: maroon;
        
       }
+      table, th, td {
+        border-collapse: collapse;
+        border: 1px solid #fff;
+        
+        
+      }
+      th, td {
+               padding: 10px 15px;
+             
+    }
+    tr:nth-child(even) {
+      background-color: #81807d;
+    }
+    
       </style>
   </head>
   <body>
-    <nav style="text-align: right">
+    <nav style="text-align: right;">
       <a href="Home.html">Home </a> | <a href="Leseprobe.html">Leseprobe</a> |
       <a href="English.html">English</a> | <a href="fancyLeseprobe.html">Fancy Leseprobe</a>
     </nav>
@@ -69,6 +100,86 @@
           <a href="Leseprobe.html">Blick ins Buch</a>.
         </p>
       </article>
+    </section>
+    <hr/>
+    <section class="table">
+    <h2>Kilometertabelle</h2>
+    <table class="center">
+      <caption>Zentrierte Tabelle</caption>
+      
+      <tr>
+        <th scope="col" colspan=""></th>
+        <th scope="col" colspan="">Tag</th>
+        <th scope="col">Anfang</th>
+        <th scope="col">Ende</th>
+        <th scope="col">Kilometer</th>
+      </tr>
+      <tr>
+        <th scope="row" rowspan="4">Kapitel 2</th>    
+        <td>Tag 1</td>
+        <td>0</td>
+        <td>50</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Tag 2</td>
+        <td>50</td>
+        <td>100</td>
+      <td>50</td></tr>
+
+      <tr>
+        <td>Tag 3</td>
+        <td>100</td>
+        <td>150</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Tag 4</td>
+        <td>150</td>
+        <td>200</td>
+        <td>50</td>
+      </tr>
+      
+      
+    </th>
+    <tr>
+        <th scope="row" rowspan="4">Kapitel 3
+        <td>Tag 5</td>
+        <td>200</td>
+        <td>250</td>
+        <td>50</td>
+        </tr>
+        <tr>
+        <td>Tag 6</td>
+        <td>250</td>
+        <td>300</td>
+        <td>50</td></tr>
+  
+        <tr>
+          <td>Tag 7</td>
+          <td>300</td>
+          <td>350</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Tag 8</td>
+          <td>350</td>
+          <td>400</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <th scope="row" rowspan="4">Gesamt</th>
+        <td>8</td>
+        <td></td>
+        <td></td>
+        <td>400</td>
+       
+      
+       </tr>
+      
+      
+    </table>
+  
     </section>
   </body>
 </html>

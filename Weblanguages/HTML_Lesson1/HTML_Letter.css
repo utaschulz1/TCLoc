@@ -1,0 +1,39 @@
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table.sender-column {
+  margin-right: 0px;
+  margin-left: auto;
+  text-align: right;
+}
+table.receiver-column {
+  margin-right: auto;
+  margin-left: 0px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+  font-size: 1.1em;
+}
+
+p,
+li,
+dd,
+dt,
+address {
+  line-height: 1.5;
+}

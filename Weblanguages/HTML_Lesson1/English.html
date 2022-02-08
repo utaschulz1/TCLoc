@@ -4,31 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>EN</title>
+    <style>
+      body {
+        background-image: url(./images/FahrradlogoGezeichnet.svg);
+        background-repeat: repeat;
+        background-size: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+      }
+      h1 {
+        color: maroon;
+      }
+    </style>
   </head>
   <body>
-    <nav>
-      <a href="English.html">Home</a> |
-      <a href="Bookpreview.html">Book Preview</a> |
-      <a href="Home">German</a>
+    <nav style="text-align: right">
+      <a href="English.html">Home </a> |
+      <a href="Bookpreview.html">Book preview</a> |
+      <a href="Home.html">Deutsch</a>
     </nav>
-    <h1>This is my main heading</h1>
-    <p>This is a summary and a picture.</p>
-    <div>
-      <img
-        src="images/FahrradlogoGezeichnet.svg"
-        alt="My Awesome Bicycle Image"
-      />
-    </div>
-    <div>Hello <strong>World</strong></div>
-    <div>Hello <em>World</em> 2</div>
-    <div>This is a link to <a href="http://www.google.com">Google</a>.</div>
-    <h2>This is a subheading</h2>
-    <p>Here is some content about my first website.</p>
-    <h3>This is a subheading h3</h3>
-    <p>
-      If you like to read more go ahead and
-      <a href="Bookpreview.html">read an extensive preview</a>.
-    </p>
+    <section>
+      <h1>This is my heading</h1>
+      <summary>
+        This is a summary and an image.
+        <div>It is about <strong>bycicle vacation</strong></div>
+        <div>and about <em>Bikepacking</em>.</div>
+        <div>
+          Here you will find a
+          <a href="http://www.bikepacking.com" target="_blank"
+            >Bikepacking website</a
+          >.
+        </div>
+      </summary>
+    </section>
+
+    <section>
+      <h2>Book now available</h2>
+      <article>
+        <p>
+          This is an article about a travel diary of a biketrip. Lorem, ipsum
+          dolor sit amet consectetur adipisicing elit. Numquam, consectetur eos
+          sit unde quae eius ab dignissimos. Deleniti quia ab sapiente
+          recusandae laboriosam ullam, mollitia magnam excepturi labore
+          distinctio repudiandae?
+        </p>
+        <p>Das Buch hat 6 Kapitel:<br>
+        <ol>
+          <li>Reisevorbereitung</li>
+          <li><a href="Bookpreview.html#Chapter2"><em>From Moscow to lake Onega</em></a></li>
+          <li>Karelien</li>
+          <li>Finnland</li>
+          <li>Lappland</li>
+          <li>Norwegen</li>
+        </ol>
+        </p>
+        <p>
+          You can order book XYZ now
+          <a href="http://www.google.com" target="_blank">here</a>.
+        </p>
+        <h3>Book preview</h3>
+        <p>
+          If you would like to read more, read the
+          <a href="Bookpreview.html">book preview</a>.
+        </p>
+      </article>
+    </section>
   </body>
 </html>

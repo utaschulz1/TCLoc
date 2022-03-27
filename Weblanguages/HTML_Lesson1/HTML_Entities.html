@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>render code examples</title>
+</head>
+<body>
+<h1>Lesson 1</h1>
+<p>Hello <strong>World</strong><br>
+    This is some text <a href="http://www.google.com">with a link to google</a>. </p>
+<div>My <em>first</em> div</div><div>This is some random text and <span>here is a span</span>.</div>
+<h2>Semantic markup</h2>
+<segment>The tag <code>&lt;section&gt;</code> is a semantic tag. It is identical in every way to the tag <code>&lt;div&gt;</code>, except 
+    that it indicates that this part of the page constitutes a section. </segment>
+    <h3>Semantic block elements</h3>
+    <ul>
+
+        <li><code>&lt;nav&gt;</code> - for indicating navigation menus</li>
+        <li><code>&lt;article&gt;</code> - for delimiting the content of an article</li>
+        <li><code>&gt;aside&lt;</code> - for indicating subsidiary content</li>
+        <li><code>&lt;details&gt;</code>- to indicate details</li>
+        <li><code>&lt;figure&gt;</code></li>
+        <li><code>&lt;header&gt;</code> - not to be confused with &lt;head&gt;, &lt;header&gt; is a block section like a div for the header of your page content</li>
+        <li><code>&lt;footer&gt;</code></li>
+        <li><code>&lt;main&gt;</code></li>
+    </ul>
+<h4>How to render example html code</h4>
+<div>
+    <dl>
+        <dt><code>&lt;code&gt;</code> element and html entities &amplt; and &ampgt;</dt>
+        <dd>for rendering &lt; and &gt;. To display HTML entities as plain text you can write
+    &ampamp instead of &. To escape &ampamp you just write &ampampamp and so on.<>
+<dt><code>&lt;pre&gt;</code> </dt>
+<dd> indents and linefeed of your code.</dd>
+<dt><code>&lt;var&gt;</code></dt>
+<dd>For specifically marking up variable names.</dd>
+    <dt><code>&lt;kbd&gt;</code></dt>
+    <dd> For marking up keyboard (and other types of) input entered into the computer.</dd>
+    <dt><code>&lt;samp&gt;</code></dt>
+    <dd>For marking up the output of a computer program.</dd>
+</dl>
+    
+<pre>
+    <code>&lt;pre&gt;</code>$ <code>&lt;kbd&gt;</code>ping mozilla.org<code>&lt;/kbd&gt;</code>
+    <code>&lt;samp&gt;</code>PING mozilla.org (63.245.215.20): 56 data bytes<code>&lt;/samp&gt;</code><code>&lt;/pre&gt;</code>
+    
+    renders
+    <pre>$><kbd>ping mozilla.org</kbd></pre><samp>PING mozilla.org (63.245.215.20): 56 data bytes</samp>
+</pre>
+</body>
+</html>

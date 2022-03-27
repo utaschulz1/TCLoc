@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Exercise Base</title>
+    <style>
+      h3 {
+        font-family: helvetica;
+        padding: 1rem;
+        background-color: #ededed;
+      }
+      body {
+        background-color: #ededed;
+      }
+      .main {
+        margin: auto;
+        margin-top: 100px;
+        font-family: helvetica;
+        max-width: 900px;
+      }
+      .content {
+        background-color: white;
+        padding: 40px;
+      }
+      .link {
+        text-decoration: none;
+        color: #555555;
+      }
+      .section-item {
+        padding: 0 1rem;
+        display: none;
+      }
+      /* footer {
+        text-align: center;
+      }
+      #output {
+        background-color: #f2f5f1;
+      }
+      .left,
+      .right {
+        float: left;
+        width: 40%;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h2>Javascript Exercises</h2>
+      <div class="content">
+        <section>
+          <a href="#" class="link"><h3>Section 1</h3></a>
+          <p class="section-item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis
+            voluptatum saepe fuga libero, eos vero eveniet quibusdam consequatur
+            quas eligendi sint repudiandae sed ut, architecto sit! Minus, quod
+            aperiam?
+          </p>
+        </section>
+        <section>
+          <a href="#" class="link"><h3>Section 2</h3></a>
+          <p class="section-item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis
+            voluptatum saepe fuga libero, eos vero eveniet quibusdam consequatur
+            quas eligendi sint repudiandae sed ut, architecto sit! Minus, quod
+            aperiam?
+          </p>
+        </section>
+        <section>
+          <a href="#" class="link"><h3>Section 3</h3></a>
+          <p class="section-item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nobis
+            voluptatum saepe fuga libero, eos vero eveniet quibusdam consequatur
+            quas eligendi sint repudiandae sed ut, architecto sit! Minus, quod
+            aperiam?
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+      function toggleHide() {
+        if ($(this).is(":visible")) {
+          // console.log("visible!");
+          $(this).slideToggle();
+        }
+      }
+
+      function togglefunction() {
+        $(".section-item").each(toggleHide);
+
+        if ($(this).next().is(":visible")) {
+          return;
+        } else {
+          $(this).next().slideToggle();
+        }
+      }
+
+      jQuery(document).ready(function () {
+        //Better Step 1: listen all link elements > get clicked link element into function cause there is more stuff
+        $(".link").click(togglefunction);
+        //Step 1 (first version) listen all link elements > get clicked link element > get the element after > toggle element
+        // $(".link").click(function () {
+        //   $(this).next().slideToggle();
+        // });
+      });
+    </script>
+  </body>
+</html>

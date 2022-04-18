@@ -1,0 +1,130 @@
+/* https://www.youtube.com/watch?v=rg7Fvvl3taU&t=2s 
+https://css-tricks.com/snippets/css/complete-guide-grid/ */
+
+.img {
+width: 300px;
+margin: auto;
+}
+
+.header, .nav, .footer {
+  background-color: rgb(30, 30, 30);
+  color: aliceblue;
+}
+
+/*to make equal columns of header items img, p, input, center them vertically*/
+.header {
+  grid-area: header;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: start;
+  font-size: large;
+  font-weight: bold;  
+}
+
+.logo {
+  max-width: 100px;
+  margin: 0;
+}
+
+/*style nav element as red button*/
+.red {
+  background: linear-gradient(180deg, rgb(252, 73, 73) 33%, rgba(255,29,60) 66%);
+  border-bottom: 2px solid rgb(96, 96, 96);
+}
+/*takes precedence over menu color further down in this file*/
+.blue {
+  background: linear-gradient(180deg, rgb(89, 144, 255) 33%, rgb(29, 135, 255) 66%) !important;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+/*default nav style none, padding would be 40 by default*/
+.menu, .submenu {
+  list-style: none;
+  padding: 0;
+}
+
+.close-btn, .menu a {
+  text-decoration: none; /*remove underline*/
+  text-align: center;
+  color: aliceblue;
+}
+
+.close-btn {
+  padding: 10px;
+}
+
+/*block to make it full column width, gradient from 0-33% light color, gradient until 66%, from 66-100% darker), top border lighter than bottom*/
+.menu a {
+  display: block;
+  padding: 15px;
+  background: linear-gradient(180deg, rgb(151, 151, 151) 33%, rgb(132, 132, 132) 66%);
+  border-top: 1px solid rgb(187, 187, 188);
+  border-bottom: 2px solid rgb(112, 112, 112);
+}
+
+.submenu a {
+  background: linear-gradient(180deg, rgb(203, 203, 203) 33%, rgb(180, 180, 180) 66%);
+  border-top: 1px solid rgb(221, 220, 220);
+  border-bottom: 2px solid rgb(172, 172, 172);
+}
+
+/*submenus are hidden by default*/
+.submenu {
+  display: none;
+}
+
+/*make submenu visible on function mouseIn, invisible on mouseOut by add/remove this class*/
+.deployed {
+  display: block;
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(197,197,189);
+  text-align: center;
+}
+
+.main p {
+  padding: 0 20px;
+}
+
+.footer {
+  grid-area: footer;
+  height: 100px;
+  align-items: center;
+}
+
+.footer p {
+  margin: 40px;
+}
+
+/*default grid is 1 column table with gaps and equal column width, sections are defined as grid-areas and can be positioned in a grid template, */
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+  'header'
+  'nav'
+  'main'
+  'footer';
+}
+
+/*bigger screen has 4 column table*/
+@media (min-width: 480px) {
+  .grid {
+    grid-template-areas:
+    'header header header header'
+    'nav main main main'
+    'footer footer footer footer';
+  }
+
+  /*avoid expanding main area when expanding submenus*/
+  .nav {
+  min-height: 450px;
+  }
+}

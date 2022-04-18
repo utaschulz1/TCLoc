@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <title>About | My Site</title>
+  </head>
+
+  <body>
+    <div class="grid">
+      <header class="header">
+        <img class="logo" src="./images/logo.png" />
+        <p>Life By Bicycle</p>
+        <input type="text" placeholder="Search.." name="search" />
+      </header>
+
+      <nav class="nav">
+        <a class="close-btn red" href="#">Close</a>
+
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li class="show-submenu">
+            <a class="blue" href="#">About</a>
+            <ul class="submenu">
+              <li><a href="#">Subpage 1</a></li>
+              <li><a href="#">Subpage 2</a></li>
+              <li><a href="#">Subpage 3</a></li>
+            </ul>
+          </li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <main class="main">
+        <h1>This is the Aboutpage</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor optio
+          rerum qui eos reprehenderit cumque! Quaerat repellendus cum soluta
+          mollitia, repellat tempora qui at quasi, reprehenderit labore enim.
+          Architecto, veniam?
+        </p>
+        <img class="img" src="./images/cover-en.jpg" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor optio
+          rerum qui eos reprehenderit cumque! Quaerat repellendus cum soluta
+          mollitia, repellat tempora qui at quasi, reprehenderit labore enim.
+          Architecto, veniam?
+        </p>
+      </main>
+
+      <footer class="footer">
+        <p>&copy; 2022 Uta Schulz</p>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+      jQuery(document).ready(function () {
+        $(".show-submenu").hover(mouseIn, mouseOut);
+        $(".close-btn").click(togglefunction);
+      });
+
+      function mouseIn() {
+        $(".submenu").addClass("deployed");
+      }
+
+      function mouseOut() {
+        $(".submenu").removeClass("deployed");
+      }
+
+      function togglefunction() {
+        var closeBtn = $(this);
+        var itemToToggle = $(this).next();
+
+        itemToToggle.slideToggle(500);
+
+        if (closeBtn.text() === "Close") {
+          closeBtn.text("Open");
+          closeBtn.addClass("blue");
+        } else {
+          closeBtn.text("Close");
+          closeBtn.removeClass("blue");
+        }
+      }
+    </script>
+  </body>
+</html>
